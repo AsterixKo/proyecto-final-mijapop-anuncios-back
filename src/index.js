@@ -6,6 +6,7 @@ const cors = require('cors');
 const pruebaRouter = require('./routes/pruebaRouter');
 const bookRouter = require('./routes/bookRouter');
 const authorRouter = require('./routes/authorRouter');
+const userRouter = require('./routes/userRouter');
 const mongoose = require('mongoose');
 
 
@@ -27,6 +28,7 @@ mongoose.connect(
 //pruebas
 app.use('/books', bookRouter);
 app.use('/authors', authorRouter);
+app.use('/users', userRouter);
 
 
 app.get('/', (req, res) => {
