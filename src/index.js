@@ -22,7 +22,8 @@ app.use(express.urlencoded({
 mongoose.connect(
     `mongodb+srv://${process.env.MATLAS_USER}:${process.env.MATLAS_PASS}@cluster0.xyydi.mongodb.net/mijapop?retryWrites=true&w=majority`, {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useFindAndModify: false 
     });
 
 //pruebas
