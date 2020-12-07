@@ -49,7 +49,7 @@ module.exports = {
         user.containsImage = req.body._containsImage;
 
         try {
-            const userFound = await User.findOne({_email: req.body._email});
+            const userFound = await User.findOne({email: req.body._email});
 
             if(userFound){
                 console.log('Usuario encontrado, no se creara uno nuevo');
