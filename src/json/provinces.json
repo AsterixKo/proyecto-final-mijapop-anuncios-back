@@ -1,0 +1,313 @@
+[{
+  "_id": {
+    "$oid": "5fce51f60aecf46498c1cd94"
+  },
+  "name": "Almería",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce52cd0aecf46498c1cd95"
+  },
+  "name": "Cádiz",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53390aecf46498c1cd96"
+  },
+  "name": "Córdoba",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53880aecf46498c1cd97"
+  },
+  "name": "Granada",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53a20aecf46498c1cd98"
+  },
+  "name": "Huelva",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53ac0aecf46498c1cd99"
+  },
+  "name": "Jaén",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53b40aecf46498c1cd9a"
+  },
+  "name": "Málaga",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53bb0aecf46498c1cd9b"
+  },
+  "name": "Sevilla",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53c10aecf46498c1cd9c"
+  },
+  "name": "Huesca",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53c80aecf46498c1cd9d"
+  },
+  "name": "Teruel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53cf0aecf46498c1cd9e"
+  },
+  "name": "Zaragoza",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53d70aecf46498c1cd9f"
+  },
+  "name": "Asturias",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53e00aecf46498c1cda0"
+  },
+  "name": "Balears, Illes",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53e70aecf46498c1cda1"
+  },
+  "name": "Palmas, Las",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53f20aecf46498c1cda2"
+  },
+  "name": "Santa Cruz de Tenerife",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce53f80aecf46498c1cda3"
+  },
+  "name": "Cantabria",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54000aecf46498c1cda4"
+  },
+  "name": "Ávila",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54080aecf46498c1cda5"
+  },
+  "name": "Burgos",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce540f0aecf46498c1cda6"
+  },
+  "name": "León",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54140aecf46498c1cda7"
+  },
+  "name": "Palencia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce541c0aecf46498c1cda8"
+  },
+  "name": "Salamanca",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54220aecf46498c1cda9"
+  },
+  "name": "Segovia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54290aecf46498c1cdaa"
+  },
+  "name": "Soria",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54320aecf46498c1cdab"
+  },
+  "name": "Valladolid",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54380aecf46498c1cdac"
+  },
+  "name": "Zamora",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54400aecf46498c1cdad"
+  },
+  "name": "Albacete",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54480aecf46498c1cdae"
+  },
+  "name": "Ciudad Real",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce544e0aecf46498c1cdaf"
+  },
+  "name": "Cuenca",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54540aecf46498c1cdb0"
+  },
+  "name": "Guadalajara",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce545a0aecf46498c1cdb1"
+  },
+  "name": "Toledo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54610aecf46498c1cdb2"
+  },
+  "name": "Barcelona",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54660aecf46498c1cdb3"
+  },
+  "name": "Girona",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce546c0aecf46498c1cdb4"
+  },
+  "name": "Lleida",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54710aecf46498c1cdb5"
+  },
+  "name": "Tarragona",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54790aecf46498c1cdb6"
+  },
+  "name": "Alicante/Alacant",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54810aecf46498c1cdb7"
+  },
+  "name": "Castellón/Castelló",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce548a0aecf46498c1cdb8"
+  },
+  "name": "Valencia/València",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54910aecf46498c1cdb9"
+  },
+  "name": "Badajoz",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54970aecf46498c1cdba"
+  },
+  "name": "Cáceres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce549f0aecf46498c1cdbb"
+  },
+  "name": "Coruña, A",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54a50aecf46498c1cdbc"
+  },
+  "name": "Lugo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54aa0aecf46498c1cdbd"
+  },
+  "name": "Ourense",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54af0aecf46498c1cdbe"
+  },
+  "name": "Pontevedra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54b70aecf46498c1cdbf"
+  },
+  "name": "Madrid",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54bd0aecf46498c1cdc0"
+  },
+  "name": "Murcia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54c20aecf46498c1cdc1"
+  },
+  "name": "Navarra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54ca0aecf46498c1cdc2"
+  },
+  "name": "Araba/Álava",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54cf0aecf46498c1cdc3"
+  },
+  "name": "Bizkaia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54d50aecf46498c1cdc4"
+  },
+  "name": "Gipuzkoa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54dd0aecf46498c1cdc5"
+  },
+  "name": "Rioja, La",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54e30aecf46498c1cdc6"
+  },
+  "name": "Ceuta",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fce54e80aecf46498c1cdc7"
+  },
+  "name": "Melilla",
+  "__v": 0
+}]

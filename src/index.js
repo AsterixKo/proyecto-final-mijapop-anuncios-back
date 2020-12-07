@@ -7,6 +7,7 @@ const pruebaRouter = require('./routes/pruebaRouter');
 const bookRouter = require('./routes/bookRouter');
 const authorRouter = require('./routes/authorRouter');
 const userRouter = require('./routes/userRouter');
+const provinceRouter = require('./routes/provinceRouter');
 const mongoose = require('mongoose');
 
 
@@ -30,6 +31,7 @@ mongoose.connect(
 app.use('/books', bookRouter);
 app.use('/authors', authorRouter);
 app.use('/users', userRouter);
+app.use('/provinces', provinceRouter);
 
 
 app.get('/', (req, res) => {
