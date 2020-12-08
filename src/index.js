@@ -8,6 +8,8 @@ const bookRouter = require('./routes/bookRouter');
 const authorRouter = require('./routes/authorRouter');
 const userRouter = require('./routes/userRouter');
 const provinceRouter = require('./routes/provinceRouter');
+const categoryRouter = require('./routes/categoryRouter');
+const subcategoryRouter = require('./routes/subcategoryRouter');
 const mongoose = require('mongoose');
 
 
@@ -32,6 +34,8 @@ app.use('/books', bookRouter);
 app.use('/authors', authorRouter);
 app.use('/users', userRouter);
 app.use('/provinces', provinceRouter);
+app.use('/categories', categoryRouter);
+app.use('/subcategories', subcategoryRouter);
 
 
 app.get('/', (req, res) => {
