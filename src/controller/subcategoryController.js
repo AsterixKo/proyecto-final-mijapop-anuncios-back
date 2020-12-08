@@ -37,9 +37,9 @@ module.exports = {
     create: async function (req, res) {
         console.log('Creando category, body:', req.body);
         const subcategoryNew = new Subcategory();
-        subcategoryNew.name = req.body._name;
-        subcategoryNew.description = req.body._description;
-        subcategoryNew.category = req.body._category;
+        subcategoryNew.name = req.body.name;
+        subcategoryNew.description = req.body.description;
+        subcategoryNew.category = req.body.category;
 
         try {
             const subcategoryAdded = await subcategoryNew.save();
@@ -64,9 +64,9 @@ module.exports = {
     update: async function (req, res) {
         try {
             const updateQuery = {
-                "name": req.body._name,
-                "description": req.body._description,
-                "category": req.body._category
+                "name": req.body.name,
+                "description": req.body.description,
+                "category": req.body.category
             }
             const subcategoryFound = await Subcategory.findOneAndUpdate({
                 _id: req.params.id

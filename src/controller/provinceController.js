@@ -35,10 +35,10 @@ module.exports = {
     create: async function (req, res) {
         console.log('Creando province, body:', req.body);
         const province = new Province();
-        province.name = req.body._name;
+        province.name = req.body.name;
 
         try {
-            const provinceFound = await Province.findOne({name: req.body._name});
+            const provinceFound = await Province.findOne({name: req.body.name});
 
             if(provinceFound){
                 console.log('Province encontrado, no se creara uno nuevo');
@@ -67,7 +67,7 @@ module.exports = {
     update: async function (req, res) {
         try {
             const updateQuery = {
-                "name": req.body._name
+                "name": req.body.name
             }
             const provinceFound = await Province.findOneAndUpdate({
                 _id: req.params.id
