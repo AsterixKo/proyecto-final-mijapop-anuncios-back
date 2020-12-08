@@ -35,21 +35,21 @@ module.exports = {
     create: async function (req, res) {
         console.log('Creando usuario, body:', req.body);
         const user = new User();
-        user.email = req.body._email;
-        user.password = req.body._password;
-        user.name = req.body._name;
-        user.lastName = req.body._lastName;
-        user.location = req.body._location;
-        user.description = req.body._description;
-        user.callSchedule = req.body._callSchedule;
-        user.phone = req.body._phone;
-        user.gender = req.body._gender;
-        user.dateBirth = req.body._dateBirth;
-        user.srcImage = req.body._srcImage;
-        user.containsImage = req.body._containsImage;
+        user.email = req.body.email;
+        user.password = req.body.password;
+        user.name = req.body.name;
+        user.lastName = req.body.lastName;
+        user.location = req.body.location;
+        user.description = req.body.description;
+        user.callSchedule = req.body.callSchedule;
+        user.phone = req.body.phone;
+        user.gender = req.body.gender;
+        user.dateBirth = req.body.dateBirth;
+        user.srcImage = req.body.srcImage;
+        user.containsImage = req.body.containsImage;
 
         try {
-            const userFound = await User.findOne({email: req.body._email});
+            const userFound = await User.findOne({email: req.body.email});
 
             if(userFound){
                 console.log('Usuario encontrado, no se creara uno nuevo');
@@ -78,17 +78,17 @@ module.exports = {
     update: async function (req, res) {
         try {
             const updateQuery = {
-                "password": req.body._password,
-                "name": req.body._name,
-                "lastName": req.body._lastName,
-                "location": req.body._location,
-                "description": req.body._description,
-                "callSchedule": req.body._callSchedule,
-                "phone": req.body._phone,
-                "gender": req.body._gender,
-                "dateBirth": req.body._dateBirth,
-                "srcImage": req.body._srcImage,
-                "containsImage": req.body._containsImage
+                "password": req.body.password,
+                "name": req.body.name,
+                "lastName": req.body.lastName,
+                "location": req.body.location,
+                "description": req.body.description,
+                "callSchedule": req.body.callSchedule,
+                "phone": req.body.phone,
+                "gender": req.body.gender,
+                "dateBirth": req.body.dateBirth,
+                "srcImage": req.body.srcImage,
+                "containsImage": req.body.containsImage
             }
             const userFound = await User.findOneAndUpdate({
                 _id: req.params.id
