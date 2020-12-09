@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "5fd0b5d25914d62d501bd7e3"
+  },
+  "name": "Nuevo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0b62a5914d62d501bd7e4"
+  },
+  "name": "Como nuevo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0b6325914d62d501bd7e5"
+  },
+  "name": "Bueno",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0b63f5914d62d501bd7e6"
+  },
+  "name": "Aceptable",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0b64c5914d62d501bd7e7"
+  },
+  "name": "Lo ha dado todo",
+  "__v": 0
+}]
