@@ -10,6 +10,7 @@ const userRouter = require('./routes/userRouter');
 const provinceRouter = require('./routes/provinceRouter');
 const categoryRouter = require('./routes/categoryRouter');
 const subcategoryRouter = require('./routes/subcategoryRouter');
+const productStatusRouter = require('./routes/productStatusRouter');
 const mongoose = require('mongoose');
 
 
@@ -36,7 +37,7 @@ app.use('/users', userRouter);
 app.use('/provinces', provinceRouter);
 app.use('/categories', categoryRouter);
 app.use('/subcategories', subcategoryRouter);
-
+app.use('/productStatus', productStatusRouter);
 
 app.get('/', (req, res) => {
     res.status(200).send('<h2>Llama a la ruta específica</h2>')
