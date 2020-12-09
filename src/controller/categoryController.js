@@ -1,6 +1,3 @@
-const {
-    MongooseDocument
-} = require('mongoose');
 const Category = require('../models/CategoryModel');
 
 module.exports = {
