@@ -1,6 +1,3 @@
-const {
-    MongooseDocument
-} = require('mongoose');
 const Book = require('../models/bookModel');
 
 module.exports = {

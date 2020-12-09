@@ -1,4 +1,3 @@
-const { MongooseDocument } = require('mongoose');
 const Author = require('../models/authorModel');
 
 module.exports = {

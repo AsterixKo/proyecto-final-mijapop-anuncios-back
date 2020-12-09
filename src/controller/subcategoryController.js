@@ -1,12 +1,11 @@
-const {
-    MongooseDocument
-} = require('mongoose');
+const mongoose = require('mongoose');
 const Subcategory = require('../models/subcategoryModel');
+// const Category = require('../models/categoryModel');
 
 module.exports = {
     index: async function (req, res) {
         try {
-            const subcategoriesFound = await Subcategory.find().populate('category');
+            const subcategoriesFound = await Subcategory.find().collation({locale:'es', strength:2}).sort({name:1}).populate('category');
             res.json(subcategoriesFound);
         } catch (error) {
             console.log(error);
@@ -16,6 +15,18 @@ module.exports = {
     showById: async function (req, res) {
         try {
             const subcategoryFound = await Subcategory.findById(req.params.id).populate('category');
+            res.json(subcategoryFound);
+        } catch (error) {
+            console.log(error);
+            res.sendStatus(500);
+        }
+    },
+    findByCategoryId: async function (req, res) {
+        try {
+            console.log('findByCategoryId:', req.params.id);
+            const subcategoryFound = await Subcategory.find({
+                category: req.params.id
+            }).populate('category');
             res.json(subcategoryFound);
         } catch (error) {
             console.log(error);
@@ -44,6 +55,14 @@ module.exports = {
         try {
             const subcategoryAdded = await subcategoryNew.save();
             console.log('subcategoryAdded:', subcategoryAdded);
+
+            console.log('req.body.category._id', req.body.category._id);
+            const Category = mongoose.model('Category');
+            
+            const categoryFound = await Category.findById(req.body.category._id);
+            categoryFound.subcategories.push(subcategoryAdded);
+            await categoryFound.save();
+
             res.status(200).json(subcategoryAdded);
         } catch (error) {
             console.log(error);

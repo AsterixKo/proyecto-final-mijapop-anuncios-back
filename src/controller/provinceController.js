@@ -1,6 +1,3 @@
-// const {
-//     MongooseDocument
-// } = require('mongoose');
 const Province = require('../models/ProvinceModel');
 
 module.exports = {
