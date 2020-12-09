@@ -11,6 +11,7 @@ const provinceRouter = require('./routes/provinceRouter');
 const categoryRouter = require('./routes/categoryRouter');
 const subcategoryRouter = require('./routes/subcategoryRouter');
 const productStatusRouter = require('./routes/productStatusRouter');
+const productRouter = require('./routes/productRouter');
 const mongoose = require('mongoose');
 
 
@@ -27,7 +28,8 @@ mongoose.connect(
     `mongodb+srv://${process.env.MATLAS_USER}:${process.env.MATLAS_PASS}@cluster0.xyydi.mongodb.net/mijapop?retryWrites=true&w=majority`, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useFindAndModify: false 
+        useFindAndModify: false,
+        useCreateIndex: true,
     });
 
 //pruebas
@@ -38,6 +40,7 @@ app.use('/provinces', provinceRouter);
 app.use('/categories', categoryRouter);
 app.use('/subcategories', subcategoryRouter);
 app.use('/productStatus', productStatusRouter);
+app.use('/products', productRouter);
 
 app.get('/', (req, res) => {
     res.status(200).send('<h2>Llama a la ruta específica</h2>')
