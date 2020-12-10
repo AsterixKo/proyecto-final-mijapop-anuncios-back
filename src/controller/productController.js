@@ -23,7 +23,12 @@ module.exports = {
                 $text: {
                     $search: req.params.query
                 }
-            });
+            })
+            .populate('category')
+            .populate('subcategory')
+            .populate('userOwner')
+            .populate('productStatus')
+            .populate('province');;
             res.json(productsFound);
         } catch (error) {
             console.log(error);
