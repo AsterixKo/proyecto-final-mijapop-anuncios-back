@@ -12,6 +12,7 @@ const categoryRouter = require('./routes/categoryRouter');
 const subcategoryRouter = require('./routes/subcategoryRouter');
 const productStatusRouter = require('./routes/productStatusRouter');
 const productRouter = require('./routes/productRouter');
+const productFavoriteRouter = require('./routes/productFavoriteRouter');
 const mongoose = require('mongoose');
 
 
@@ -41,6 +42,7 @@ app.use('/categories', categoryRouter);
 app.use('/subcategories', subcategoryRouter);
 app.use('/productStatus', productStatusRouter);
 app.use('/products', productRouter);
+app.use('/productFavorites', productFavoriteRouter);
 
 app.get('/', (req, res) => {
     res.status(200).send('<h2>Llama a la ruta específica</h2>')
