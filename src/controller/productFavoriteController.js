@@ -5,7 +5,20 @@ module.exports = {
     index: async function (req, res) {
         try {
             const productsFound = await ProductFavorite.find()
-                .populate('product')
+                .populate({
+                    path: 'product',
+                    populate: [{
+                        path: 'category'
+                    }, {
+                        path: 'subcategory'
+                    }, {
+                        path: 'province'
+                    }, {
+                        path: 'productStatus'
+                    }, {
+                        path: 'userOwner'
+                    }]
+                })
                 .populate('userFavorite');
             res.json(productsFound);
         } catch (error) {
