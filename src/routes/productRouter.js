@@ -10,6 +10,8 @@ router.get('/province/:id', productController.findByProvinceId);
 router.get('/subcategory/:id', productController.findBySubcategoryId);
 router.get('/town/:town', productController.findByTown);
 router.get('/userOwner/:id', productController.findByUserOwnerId);
+router.get('/userOwnerAndIsSold/:id', productController.findByUserOwnerIdAndIsSold);
+router.get('/userOwnerAndIsNotSold/:id', productController.findByUserOwnerIdAndIsNotSold);
 router.get('/:id', productController.showById);
 router.post('/', productController.create);
 router.delete('/:id', productController.delete);

@@ -100,6 +100,42 @@ module.exports = {
             res.sendStatus(500);
         }
     },
+    findByUserOwnerIdAndIsSold: async function (req, res) {
+        try {
+            console.log('findByUserOwnerIdAndIsSold:', req.params.id);
+            const productsFound = await Product.find({
+                    userOwner: req.params.id,
+                    isSold: true
+                })
+                .populate('category')
+                .populate('subcategory')
+                .populate('userOwner')
+                .populate('productStatus')
+                .populate('province');
+            res.json(productsFound);
+        } catch (error) {
+            console.log(error);
+            res.sendStatus(500);
+        }
+    },
+    findByUserOwnerIdAndIsNotSold: async function (req, res) {
+        try {
+            console.log('findByUserOwnerIdAndIsSold:', req.params.id);
+            const productsFound = await Product.find({
+                    userOwner: req.params.id,
+                    isSold: false
+                })
+                .populate('category')
+                .populate('subcategory')
+                .populate('userOwner')
+                .populate('productStatus')
+                .populate('province');
+            res.json(productsFound);
+        } catch (error) {
+            console.log(error);
+            res.sendStatus(500);
+        }
+    },
     findByProvinceId: async function (req, res) {
         try {
             console.log('findByProvinceId:', req.params.id);
