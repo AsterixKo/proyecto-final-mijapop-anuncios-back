@@ -53,6 +53,33 @@ module.exports = {
             res.sendStatus(500);
         }
     },
+    findByUserFavoriteId: async function (req, res) {
+        try {
+            console.log('findByUserFavoriteId: idUserFavorite:', req.params.idUserFavorite);
+            const productsFound = await ProductFavorite.find({
+                    userFavorite: req.params.idUserFavorite
+                })
+                .populate({
+                    path: 'product',
+                    populate: [{
+                        path: 'category'
+                    }, {
+                        path: 'subcategory'
+                    }, {
+                        path: 'province'
+                    }, {
+                        path: 'productStatus'
+                    }, {
+                        path: 'userOwner'
+                    }]
+                })
+                .populate('userFavorite');
+            res.json(productsFound);
+        } catch (error) {
+            console.log(error);
+            res.sendStatus(500);
+        }
+    },
     create: async function (req, res) {
         console.log('Creando productFavorite, body:', req.body);
         const productFavoriteNew = new ProductFavorite();
