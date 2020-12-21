@@ -1,0 +1,841 @@
+[{
+  "_id": {
+    "$oid": "5fcf5b6cdf6bfd0ad4197192"
+  },
+  "subcategories": [
+    {
+      "$oid": "5fd0a4a13984c81e08822402"
+    },
+    {
+      "$oid": "5fd0a5053984c81e08822404"
+    },
+    {
+      "$oid": "5fd4bd92f9d7361a8860f720"
+    },
+    {
+      "$oid": "5fd4bd9ef9d7361a8860f721"
+    },
+    {
+      "$oid": "5fd4bdacf9d7361a8860f722"
+    },
+    {
+      "$oid": "5fd4bdbef9d7361a8860f723"
+    },
+    {
+      "$oid": "5fd4bdc3f9d7361a8860f724"
+    },
+    {
+      "$oid": "5fd4bdd6f9d7361a8860f725"
+    },
+    {
+      "$oid": "5fd4bddff9d7361a8860f726"
+    },
+    {
+      "$oid": "5fd4bdfaf9d7361a8860f727"
+    },
+    {
+      "$oid": "5fd4be04f9d7361a8860f728"
+    },
+    {
+      "$oid": "5fd4be0df9d7361a8860f729"
+    },
+    {
+      "$oid": "5fd4be1bf9d7361a8860f72a"
+    },
+    {
+      "$oid": "5fd4be2cf9d7361a8860f72b"
+    },
+    {
+      "$oid": "5fd4be36f9d7361a8860f72c"
+    },
+    {
+      "$oid": "5fd4be3ef9d7361a8860f72d"
+    },
+    {
+      "$oid": "5fd4be7cf9d7361a8860f72e"
+    },
+    {
+      "$oid": "5fd4be87f9d7361a8860f72f"
+    },
+    {
+      "$oid": "5fd4be8ff9d7361a8860f730"
+    },
+    {
+      "$oid": "5fd4bea1f9d7361a8860f731"
+    },
+    {
+      "$oid": "5fd4beaef9d7361a8860f732"
+    }
+  ],
+  "name": "Coches",
+  "description": "Coches de segundamano",
+  "__v": 21
+},{
+  "_id": {
+    "$oid": "5fcf5bd9df6bfd0ad4197193"
+  },
+  "subcategories": [
+    {
+      "$oid": "5fd0a5513984c81e08822405"
+    },
+    {
+      "$oid": "5fd0a5693984c81e08822407"
+    },
+    {
+      "$oid": "5fd4bed2f9d7361a8860f733"
+    },
+    {
+      "$oid": "5fd4bee3f9d7361a8860f734"
+    },
+    {
+      "$oid": "5fd4bef8f9d7361a8860f735"
+    },
+    {
+      "$oid": "5fd4bf08f9d7361a8860f736"
+    },
+    {
+      "$oid": "5fd4bf5df9d7361a8860f737"
+    },
+    {
+      "$oid": "5fd4bfa9f9d7361a8860f738"
+    },
+    {
+      "$oid": "5fd4c01ff9d7361a8860f739"
+    },
+    {
+      "$oid": "5fd4c058f9d7361a8860f73a"
+    }
+  ],
+  "name": "Motos",
+  "description": "Motos de segunda mano",
+  "__v": 10
+},{
+  "_id": {
+    "$oid": "5fd4b2d9f9d7361a8860f707"
+  },
+  "name": "Hogar y Jardín",
+  "description": "Muebles, decoración y jardín de segunda mano",
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fd4b38ef9d7361a8860f709"
+    },
+    {
+      "$oid": "5fda2a5de538c108e8eae968"
+    },
+    {
+      "$oid": "5fda2a6fe538c108e8eae969"
+    },
+    {
+      "$oid": "5fda2a8fe538c108e8eae96a"
+    },
+    {
+      "$oid": "5fda2aa0e538c108e8eae96b"
+    },
+    {
+      "$oid": "5fda2aabe538c108e8eae96c"
+    },
+    {
+      "$oid": "5fda2ac1e538c108e8eae96d"
+    },
+    {
+      "$oid": "5fda2ad4e538c108e8eae96e"
+    },
+    {
+      "$oid": "5fda2adfe538c108e8eae96f"
+    },
+    {
+      "$oid": "5fda39eda401681180b64eff"
+    },
+    {
+      "$oid": "5fdb49cb9e90282c80269019"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b69af9d7361a8860f70f"
+  },
+  "name": "Motor y Accesorios",
+  "description": "Cascos, mantas, llantas, separadores. Tu pide, nosotros buscamos.",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fda3a02a401681180b64f00"
+    },
+    {
+      "$oid": "5fda3a0da401681180b64f02"
+    },
+    {
+      "$oid": "5fda3a19a401681180b64f03"
+    },
+    {
+      "$oid": "5fda3a2fa401681180b64f04"
+    },
+    {
+      "$oid": "5fda3a3ea401681180b64f05"
+    },
+    {
+      "$oid": "5fda3a46a401681180b64f06"
+    },
+    {
+      "$oid": "5fda3a57a401681180b64f07"
+    },
+    {
+      "$oid": "5fda3a71a401681180b64f08"
+    },
+    {
+      "$oid": "5fda3a7fa401681180b64f09"
+    },
+    {
+      "$oid": "5fda3a90a401681180b64f0a"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b754f9d7361a8860f710"
+  },
+  "name": "Moda y Complementos",
+  "description": "Carolina Herrera, Bimba y Lola, Purificación García.",
+  "__v": 13,
+  "subcategories": [
+    {
+      "$oid": "5fda3aa1a401681180b64f0b"
+    },
+    {
+      "$oid": "5fda3aada401681180b64f0d"
+    },
+    {
+      "$oid": "5fda3ab5a401681180b64f0e"
+    },
+    {
+      "$oid": "5fda3abda401681180b64f0f"
+    },
+    {
+      "$oid": "5fda3acda401681180b64f10"
+    },
+    {
+      "$oid": "5fda3ad6a401681180b64f11"
+    },
+    {
+      "$oid": "5fda3ae1a401681180b64f12"
+    },
+    {
+      "$oid": "5fda3aeaa401681180b64f13"
+    },
+    {
+      "$oid": "5fda3aeaa401681180b64f14"
+    },
+    {
+      "$oid": "5fda3afea401681180b64f15"
+    },
+    {
+      "$oid": "5fda3b05a401681180b64f16"
+    },
+    {
+      "$oid": "5fda3b4fa401681180b64f1d"
+    },
+    {
+      "$oid": "5fda3b54a401681180b64f1e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b787f9d7361a8860f711"
+  },
+  "name": "Inmoviliaria",
+  "description": "Alquila, compra y vende",
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fda3b20a401681180b64f17"
+    },
+    {
+      "$oid": "5fda3b27a401681180b64f19"
+    },
+    {
+      "$oid": "5fda3b35a401681180b64f1a"
+    },
+    {
+      "$oid": "5fda3b3fa401681180b64f1b"
+    },
+    {
+      "$oid": "5fda3b47a401681180b64f1c"
+    },
+    {
+      "$oid": "5fda3b6ea401681180b64f1f"
+    },
+    {
+      "$oid": "5fda3b75a401681180b64f20"
+    },
+    {
+      "$oid": "5fda3b93a401681180b64f21"
+    },
+    {
+      "$oid": "5fda3b9fa401681180b64f22"
+    },
+    {
+      "$oid": "5fda3bbda401681180b64f23"
+    },
+    {
+      "$oid": "5fdb49909e90282c80269018"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b802f9d7361a8860f712"
+  },
+  "name": "Tv, Audio y Foto",
+  "description": "Vende la Xbox One y compra un proyector",
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fda3be0a401681180b64f24"
+    },
+    {
+      "$oid": "5fda3be8a401681180b64f26"
+    },
+    {
+      "$oid": "5fda3befa401681180b64f27"
+    },
+    {
+      "$oid": "5fda3bf6a401681180b64f28"
+    },
+    {
+      "$oid": "5fda3c00a401681180b64f29"
+    },
+    {
+      "$oid": "5fda3c06a401681180b64f2a"
+    },
+    {
+      "$oid": "5fda3c44a401681180b64f2b"
+    },
+    {
+      "$oid": "5fda3c4ba401681180b64f2c"
+    },
+    {
+      "$oid": "5fda3c62a401681180b64f2d"
+    },
+    {
+      "$oid": "5fda3ca1a401681180b64f2e"
+    },
+    {
+      "$oid": "5fda3f1ea401681180b64f43"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b82af9d7361a8860f713"
+  },
+  "name": "Móviles y Telefonía",
+  "description": "Comprate el penúltimo Iphone",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fda3cbba401681180b64f2f"
+    },
+    {
+      "$oid": "5fda3cc3a401681180b64f31"
+    },
+    {
+      "$oid": "5fda3cd1a401681180b64f32"
+    },
+    {
+      "$oid": "5fda3cdaa401681180b64f33"
+    },
+    {
+      "$oid": "5fda3ceaa401681180b64f34"
+    },
+    {
+      "$oid": "5fda3d04a401681180b64f35"
+    },
+    {
+      "$oid": "5fda3d24a401681180b64f36"
+    },
+    {
+      "$oid": "5fda3da1a401681180b64f37"
+    },
+    {
+      "$oid": "5fda3daea401681180b64f38"
+    },
+    {
+      "$oid": "5fda3dd0a401681180b64f39"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b8a6f9d7361a8860f714"
+  },
+  "name": "Informática y Electrónica",
+  "description": "Ordenadores, portátiles, etc.",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fda3e47a401681180b64f3a"
+    },
+    {
+      "$oid": "5fda3e6da401681180b64f3c"
+    },
+    {
+      "$oid": "5fda3e7aa401681180b64f3d"
+    },
+    {
+      "$oid": "5fda3ebaa401681180b64f3e"
+    },
+    {
+      "$oid": "5fda3ec8a401681180b64f3f"
+    },
+    {
+      "$oid": "5fda3ee5a401681180b64f40"
+    },
+    {
+      "$oid": "5fda3ef9a401681180b64f41"
+    },
+    {
+      "$oid": "5fda3f0ca401681180b64f42"
+    },
+    {
+      "$oid": "5fda3f45a401681180b64f44"
+    },
+    {
+      "$oid": "5fda3f54a401681180b64f45"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b8f1f9d7361a8860f715"
+  },
+  "name": "Deportes y Ocio",
+  "description": "Ponte en forma",
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fda3f6da401681180b64f46"
+    },
+    {
+      "$oid": "5fda3f86a401681180b64f48"
+    },
+    {
+      "$oid": "5fda3f99a401681180b64f49"
+    },
+    {
+      "$oid": "5fda3fada401681180b64f4a"
+    },
+    {
+      "$oid": "5fda3fb8a401681180b64f4b"
+    },
+    {
+      "$oid": "5fda3fc8a401681180b64f4c"
+    },
+    {
+      "$oid": "5fda3fd0a401681180b64f4d"
+    },
+    {
+      "$oid": "5fda4015a401681180b64f4e"
+    },
+    {
+      "$oid": "5fda4031a401681180b64f4f"
+    },
+    {
+      "$oid": "5fda4047a401681180b64f50"
+    },
+    {
+      "$oid": "5fda407da401681180b64f51"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b924f9d7361a8860f716"
+  },
+  "name": "Bicicletas",
+  "description": "Encuentra la mejor bici para ti",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb16aeb76bf01eec0d8706"
+    },
+    {
+      "$oid": "5fdb16eab76bf01eec0d8708"
+    },
+    {
+      "$oid": "5fdb1704b76bf01eec0d8709"
+    },
+    {
+      "$oid": "5fdb1715b76bf01eec0d870a"
+    },
+    {
+      "$oid": "5fdb1724b76bf01eec0d870b"
+    },
+    {
+      "$oid": "5fdb1733b76bf01eec0d870c"
+    },
+    {
+      "$oid": "5fdb1744b76bf01eec0d870d"
+    },
+    {
+      "$oid": "5fdb177eb76bf01eec0d870e"
+    },
+    {
+      "$oid": "5fdb178bb76bf01eec0d870f"
+    },
+    {
+      "$oid": "5fdb17aeb76bf01eec0d8710"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b992f9d7361a8860f717"
+  },
+  "name": "Consolas y Videojuegos",
+  "description": "Juegos, arcades y mucho más",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb1810b76bf01eec0d8711"
+    },
+    {
+      "$oid": "5fdb182fb76bf01eec0d8713"
+    },
+    {
+      "$oid": "5fdb1848b76bf01eec0d8714"
+    },
+    {
+      "$oid": "5fdb185eb76bf01eec0d8715"
+    },
+    {
+      "$oid": "5fdb186bb76bf01eec0d8716"
+    },
+    {
+      "$oid": "5fdb1877b76bf01eec0d8717"
+    },
+    {
+      "$oid": "5fdb18bfb76bf01eec0d8718"
+    },
+    {
+      "$oid": "5fdb18d2b76bf01eec0d8719"
+    },
+    {
+      "$oid": "5fdb1913b76bf01eec0d871a"
+    },
+    {
+      "$oid": "5fdb1937b76bf01eec0d871b"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4b9acf9d7361a8860f718"
+  },
+  "name": "Electrodomésticos",
+  "description": "Jubila tu viejo tostador",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb1985b76bf01eec0d871c"
+    },
+    {
+      "$oid": "5fdb1996b76bf01eec0d871e"
+    },
+    {
+      "$oid": "5fdb199fb76bf01eec0d871f"
+    },
+    {
+      "$oid": "5fdb19bbb76bf01eec0d8720"
+    },
+    {
+      "$oid": "5fdb19cab76bf01eec0d8721"
+    },
+    {
+      "$oid": "5fdb19dab76bf01eec0d8722"
+    },
+    {
+      "$oid": "5fdb19e2b76bf01eec0d8723"
+    },
+    {
+      "$oid": "5fdb1a0fb76bf01eec0d8724"
+    },
+    {
+      "$oid": "5fdb1a50b76bf01eec0d8725"
+    },
+    {
+      "$oid": "5fdb1a5bb76bf01eec0d8726"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4ba21f9d7361a8860f719"
+  },
+  "name": "Niños y Bebes",
+  "description": "Todo lo que necesitas para tu bebé",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb1ad0b76bf01eec0d8727"
+    },
+    {
+      "$oid": "5fdb1adbb76bf01eec0d8729"
+    },
+    {
+      "$oid": "5fdb1ae5b76bf01eec0d872a"
+    },
+    {
+      "$oid": "5fdb1af5b76bf01eec0d872b"
+    },
+    {
+      "$oid": "5fdb1b06b76bf01eec0d872c"
+    },
+    {
+      "$oid": "5fdb1b0fb76bf01eec0d872d"
+    },
+    {
+      "$oid": "5fdb1b19b76bf01eec0d872e"
+    },
+    {
+      "$oid": "5fdb1b47b76bf01eec0d872f"
+    },
+    {
+      "$oid": "5fdb1b69b76bf01eec0d8730"
+    },
+    {
+      "$oid": "5fdb1b75b76bf01eec0d8731"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4ba65f9d7361a8860f71a"
+  },
+  "name": "Vintage y Coleccionísmo",
+  "description": "Radios, despertadores, cuadros...",
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb1b82b76bf01eec0d8732"
+    },
+    {
+      "$oid": "5fdb1b8cb76bf01eec0d8734"
+    },
+    {
+      "$oid": "5fdb1ba4b76bf01eec0d8735"
+    },
+    {
+      "$oid": "5fdb1bcab76bf01eec0d8736"
+    },
+    {
+      "$oid": "5fdb1bd1b76bf01eec0d8737"
+    },
+    {
+      "$oid": "5fdb1bdab76bf01eec0d8738"
+    },
+    {
+      "$oid": "5fdb1c25b76bf01eec0d8739"
+    },
+    {
+      "$oid": "5fdb1c3bb76bf01eec0d873a"
+    },
+    {
+      "$oid": "5fdb1c77b76bf01eec0d873b"
+    },
+    {
+      "$oid": "5fdb1c8cb76bf01eec0d873c"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4bd1ff9d7361a8860f71b"
+  },
+  "name": "Materiales de Construcción",
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fdb2131b76bf01eec0d873d"
+    },
+    {
+      "$oid": "5fdb213ab76bf01eec0d873f"
+    },
+    {
+      "$oid": "5fdb2144b76bf01eec0d8740"
+    },
+    {
+      "$oid": "5fdb215fb76bf01eec0d8741"
+    },
+    {
+      "$oid": "5fdb2166b76bf01eec0d8742"
+    },
+    {
+      "$oid": "5fdb217bb76bf01eec0d8743"
+    },
+    {
+      "$oid": "5fdb218ab76bf01eec0d8744"
+    },
+    {
+      "$oid": "5fdb2191b76bf01eec0d8745"
+    },
+    {
+      "$oid": "5fdb22adb76bf01eec0d8746"
+    },
+    {
+      "$oid": "5fdb22b5b76bf01eec0d8747"
+    },
+    {
+      "$oid": "5fdb22f7b76bf01eec0d874a"
+    }
+  ],
+  "description": "Herramientas y materiales"
+},{
+  "_id": {
+    "$oid": "5fd4bd33f9d7361a8860f71c"
+  },
+  "name": "Industria y Agricultura",
+  "description": null,
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb22ecb76bf01eec0d8748"
+    },
+    {
+      "$oid": "5fdb22ffb76bf01eec0d874b"
+    },
+    {
+      "$oid": "5fdb231ab76bf01eec0d874c"
+    },
+    {
+      "$oid": "5fdb233db76bf01eec0d874d"
+    },
+    {
+      "$oid": "5fdb2345b76bf01eec0d874e"
+    },
+    {
+      "$oid": "5fdb2354b76bf01eec0d874f"
+    },
+    {
+      "$oid": "5fdb2360b76bf01eec0d8750"
+    },
+    {
+      "$oid": "5fdb2374b76bf01eec0d8751"
+    },
+    {
+      "$oid": "5fdb237eb76bf01eec0d8752"
+    },
+    {
+      "$oid": "5fdb23adb76bf01eec0d8753"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4bd40f9d7361a8860f71d"
+  },
+  "name": "Empleo",
+  "description": null,
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb23ceb76bf01eec0d8754"
+    },
+    {
+      "$oid": "5fdb23e2b76bf01eec0d8756"
+    },
+    {
+      "$oid": "5fdb23f8b76bf01eec0d8757"
+    },
+    {
+      "$oid": "5fdb2401b76bf01eec0d8758"
+    },
+    {
+      "$oid": "5fdb2413b76bf01eec0d8759"
+    },
+    {
+      "$oid": "5fdb2419b76bf01eec0d875a"
+    },
+    {
+      "$oid": "5fdb2420b76bf01eec0d875b"
+    },
+    {
+      "$oid": "5fdb242fb76bf01eec0d875c"
+    },
+    {
+      "$oid": "5fdb2439b76bf01eec0d875d"
+    },
+    {
+      "$oid": "5fdb2452b76bf01eec0d875e"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4bd48f9d7361a8860f71e"
+  },
+  "name": "Servicios",
+  "description": null,
+  "__v": 10,
+  "subcategories": [
+    {
+      "$oid": "5fdb247bb76bf01eec0d875f"
+    },
+    {
+      "$oid": "5fdb2482b76bf01eec0d8761"
+    },
+    {
+      "$oid": "5fdb2489b76bf01eec0d8762"
+    },
+    {
+      "$oid": "5fdb249bb76bf01eec0d8763"
+    },
+    {
+      "$oid": "5fdb24b5b76bf01eec0d8764"
+    },
+    {
+      "$oid": "5fdb24c5b76bf01eec0d8765"
+    },
+    {
+      "$oid": "5fdb24d8b76bf01eec0d8766"
+    },
+    {
+      "$oid": "5fdb24edb76bf01eec0d8767"
+    },
+    {
+      "$oid": "5fdb2506b76bf01eec0d8768"
+    },
+    {
+      "$oid": "5fdb25f9b76bf01eec0d8775"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5fd4bd4df9d7361a8860f71f"
+  },
+  "name": "Otros",
+  "description": null,
+  "__v": 11,
+  "subcategories": [
+    {
+      "$oid": "5fdb2515b76bf01eec0d8769"
+    },
+    {
+      "$oid": "5fdb251cb76bf01eec0d876b"
+    },
+    {
+      "$oid": "5fdb2527b76bf01eec0d876c"
+    },
+    {
+      "$oid": "5fdb252eb76bf01eec0d876d"
+    },
+    {
+      "$oid": "5fdb2545b76bf01eec0d876e"
+    },
+    {
+      "$oid": "5fdb2552b76bf01eec0d876f"
+    },
+    {
+      "$oid": "5fdb256bb76bf01eec0d8770"
+    },
+    {
+      "$oid": "5fdb2582b76bf01eec0d8771"
+    },
+    {
+      "$oid": "5fdb2591b76bf01eec0d8772"
+    },
+    {
+      "$oid": "5fdb25beb76bf01eec0d8773"
+    },
+    {
+      "$oid": "5fdb25cbb76bf01eec0d8774"
+    }
+  ]
+}]
